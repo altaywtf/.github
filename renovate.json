@@ -3,12 +3,7 @@
   "extends": [
     "github>altaywtf/.github:renovate-config"
   ],
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "*"
-      ],
-      "automerge": false
-    }
-  ]
+  "platformAutomerge": false,
+  "automergeType": "pr",
+  "ignoreTests": false
 }
