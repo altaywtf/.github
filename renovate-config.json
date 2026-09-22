@@ -5,15 +5,6 @@
   ],
   "packageRules": [
     {
-      "matchManagers": [
-        "github-actions"
-      ],
-      "matchPackageNames": [
-        "uinaf/.github"
-      ],
-      "enabled": true
-    },
-    {
       "matchUpdateTypes": [
         "major"
       ],
