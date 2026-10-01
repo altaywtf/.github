@@ -21,4 +21,4 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: uinaf/.github/.github/actions/scan@7bc3f9ea25b5494f4026dfdb64fb866a520afcd0 # v3.0.0
+      - uses: uinaf/.github/.github/actions/scan@906e5111d19132ce85765cdc5ed28c9a87381d4b # v3.0.1
