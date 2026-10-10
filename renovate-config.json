@@ -1,15 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>uinaf/renovate-config"
-  ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "dependencyDashboardApproval": true,
-      "automerge": false
-    }
+    "github>uinaf/.github:renovate-config"
   ]
 }

@@ -14,8 +14,9 @@ Repositories opt in with `renovate.json`:
 ```
 
 The [personal preset](renovate-config.json) extends
-[uinaf’s maintained policy](https://github.com/uinaf/renovate-config).
-Major updates require dashboard approval. Native automerge is a repository-level
+[uinaf’s maintained policy](https://github.com/uinaf/.github#renovate) without
+changes; personal overrides go here. Major updates require dashboard approval.
+Native automerge is a repository-level
 opt-in that requires enforced checks. Renovate is installed for all repositories, with config files required and
 onboarding PRs disabled. Only maintained original projects are configured here;
 fork processing remains disabled by Renovate’s default.
